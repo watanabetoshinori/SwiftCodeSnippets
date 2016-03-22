@@ -39,6 +39,7 @@ nsdf                              NSDateFormatter
 uiac                              UIAlertController template
 rgb                               UIColor RGB
 extension_property                extension property using AssociatedObject
+load_xib                          Load view from Xib template
 pritty_function                   Obj-C __PRITTY_FUNCTION__ alternative
 ```
 
