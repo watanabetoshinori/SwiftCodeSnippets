@@ -37,6 +37,7 @@ document_directory_path           Document directory path
 nsl                               NSLocalizedString
 nsdf                              NSDateFormatter
 uiac                              UIAlertController template
+prepareForSegue                   prepareForSegue template
 rgb                               UIColor RGB
 extension_property                extension property using AssociatedObject
 load_xib                          Load view from Xib template
