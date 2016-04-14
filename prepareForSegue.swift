@@ -6,7 +6,7 @@ completion-scope: All
 
 override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 	switch (segue.destinationViewController, segue.identifier) {
-	case (let viewController as <#T##UIViewController#>, <#T##String">?)
+	case (let viewController as <#T##UIViewController#>, <#T##String#>?)
 		<#code#>
 	default:
 		break
