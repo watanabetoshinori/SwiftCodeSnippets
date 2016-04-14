@@ -31,6 +31,7 @@ dispatch_async_USER_INTERACTIVE   GCD template
 dispatch_async_UTILITY            GCD template
 dispatch_once                     GCD template
 mark                              // MARK - 
+outlet                            @IBOutlet
 try_catch                         do-try-catch
 handle_error                      Basic error handling
 document_directory_path           Document directory path
@@ -40,8 +41,10 @@ uiac                              UIAlertController template
 prepareForSegue                   prepareForSegue template
 rgb                               UIColor RGB
 extension_property                extension property using AssociatedObject
-load_xib                          Load view from Xib template
+init_view                         Initializing subclass of UIVview template
+load_xib                          Loading view from Xib template
 pritty_function                   Obj-C __PRITTY_FUNCTION__ alternative
+lorem                             output lorem ipsum
 ```
 
 [1]: https://github.com/mattt/Xcode-Snippets
