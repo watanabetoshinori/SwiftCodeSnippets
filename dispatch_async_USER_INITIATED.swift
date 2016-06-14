@@ -4,6 +4,6 @@ summary: "Execute a block on the background thread."
 completion-scope: CodeExpression
 ---
 
-dispatch_async(dispatch_get_global_queue(QOS_CLASS_USER_INITIATED, 0)) { () -> Void in
+DispatchQueue.global(attributes: [.qosUserInitiated]).async { 
     <#code#>
 }

@@ -4,6 +4,6 @@ summary: "Execute a block after a set amount of time."
 completion-scope: CodeExpression
 ---
 
-dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(<#T##Double#> * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) {
+DispatchQueue.main.after(when: DispatchTime.now() + <#T##Double#>) {
     <#code to be executed after a specified delay#>
 }
