@@ -18,6 +18,12 @@ required init?(coder aDecoder: NSCoder) {
     initialize()
 }
 
+convenience init() {
+    self.init(frame: CGRectZero)
+
+    initialize()
+}
+
 private func initialize() {
     <#code#>
 }
