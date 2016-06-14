@@ -42,6 +42,7 @@ prepareForSegue                   prepareForSegue template
 rgb                               UIColor RGB
 extension_property                extension property using AssociatedObject
 init_view                         Initializing subclass of UIVview template
+init_singleton                    Initializing Singleton template
 load_xib                          Loading view from Xib template
 pritty_function                   Obj-C __PRITTY_FUNCTION__ alternative
 log                               Basic print log template
