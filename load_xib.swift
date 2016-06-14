@@ -13,5 +13,5 @@ let view = nib.instantiateWithOwner(self, options: nil).first as! UIView
 addSubview(view)
  
 view.translatesAutoresizingMaskIntoConstraints = false
-addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|-(0)-[view]-(0)-|", options: [.AlignAllCenterY], metrics: nil, views: ["view":view]))
-addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-(0)-[view]-(0)-|", options: [.AlignAllCenterX], metrics: nil, views: ["view":view]))
+addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|-(0)-[view]-(0)-|", options: [.AlignAllCenterY], metrics: nil, views: ["view": view]))
+addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-(0)-[view]-(0)-|", options: [.AlignAllCenterX], metrics: nil, views: ["view": view]))
