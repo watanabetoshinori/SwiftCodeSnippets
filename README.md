@@ -29,7 +29,6 @@ dispatch_async_BACKGROUND         GCD template
 dispatch_async_USER_INITIATED     GCD template
 dispatch_async_USER_INTERACTIVE   GCD template
 dispatch_async_UTILITY            GCD template
-dispatch_once                     GCD template
 mark                              // MARK - 
 outlet                            @IBOutlet
 try_catch                         do-try-catch
