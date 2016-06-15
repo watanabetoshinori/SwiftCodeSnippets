@@ -4,7 +4,7 @@ summary: "NSDateFormatter template for Swift."
 completion-scope: CodeExpression
 ---
 
-let dateFormatter = NSDateFormatter()
-dateFormatter.locale = NSLocale(localeIdentifier: "en_US_POSIX")
-dateFormatter.calendar = NSCalendar(identifier: NSCalendarIdentifierGregorian)!
+let dateFormatter = DateFormatter()
+dateFormatter.locale = Locale(localeIdentifier: "en_US_POSIX")
+dateFormatter.calendar = Calendar(identifier: .gregorian)!
 dateFormatter.dateFormat = <#T##String#>
