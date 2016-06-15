@@ -4,4 +4,4 @@ summary: "__PRITTY_FUNCTION__ alternative for Swift."
 completion-scope: All
 ---
 
-"\(NSDate()) [\(self.dynamicType) \(#function)] [Line \(#line)]"
+"\(Date()) [\(self.dynamicType) \(#function)] [Line \(#line)]"
