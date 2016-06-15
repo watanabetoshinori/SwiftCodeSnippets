@@ -19,7 +19,7 @@ required init?(coder aDecoder: NSCoder) {
 }
 
 convenience init() {
-    self.init(frame: CGRectZero)
+    self.init(frame: .zero)
 
     initialize()
 }
