@@ -4,4 +4,4 @@ summary: "Document directory path."
 completion-scope: CodeExpression
 ---
 
-let documentDirectoryPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first!
+let documentDirectoryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
