@@ -6,7 +6,7 @@ completion-scope: All
 
 // MARK: - Initializing a Singleton
 
-static let sharedInstance = <#class#>()
+static let shared = <#class#>()
 
 private init() {
 
