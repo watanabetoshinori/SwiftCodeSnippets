@@ -6,7 +6,6 @@ completion-scope: CodeExpression
 
 do {
     <#Code that can potentially throw an exception#>
-}
-catch let error as NSError {
+} catch {
     print(error.localizedDescription)
 }

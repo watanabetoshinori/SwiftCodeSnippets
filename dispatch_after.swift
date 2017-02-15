@@ -1,9 +1,9 @@
 ---
-title: "Swift GCD: Dispatch after"
+title: "Swift GCD: Dispatch After"
 summary: "Execute a block after a set amount of time."
 completion-scope: CodeExpression
 ---
 
-DispatchQueue.main.after(when: DispatchTime.now() + <#T##Double#>) {
+DispatchQueue.main.asyncAfter(deadline: .now()) + <#T##Double#>) {
     <#code to be executed after a specified delay#>
 }

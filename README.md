@@ -24,26 +24,22 @@ Just typing shortcut in xocde :)
 
 ```
 dispatch_after                    GCD template
-dispatch_async_MAIN               GCD template
-dispatch_async_BACKGROUND         GCD template
-dispatch_async_USER_INITIATED     GCD template
-dispatch_async_USER_INTERACTIVE   GCD template
-dispatch_async_UTILITY            GCD template
-mark                              // MARK - 
+dispatch_async                    GCD template
 outlet                            @IBOutlet
+app_delegate                      Referencing AppDelegate
+df                                DateFormatter
+nsl                               NSLocalizedString
+rgb                               UIColor RGB
+uiac                              UIAlertController template
+document_directory_path           Document directory path
+init_singleton                    Initializing Singleton template
+init_view                         Initializing subclass of UIVview template
 try_catch                         do-try-catch
 handle_error                      Basic error handling
-document_directory_path           Document directory path
-nsl                               NSLocalizedString
-nsdf                              NSDateFormatter
-uiac                              UIAlertController template
-prepareForSegue                   prepareForSegue template
-rgb                               UIColor RGB
 extension_property                extension property using AssociatedObject
-init_view                         Initializing subclass of UIVview template
-init_singleton                    Initializing Singleton template
-load_xib                          Loading view from Xib template
-pritty_function                   Obj-C __PRITTY_FUNCTION__ alternative
+prepare_for_segue                 prepareForSegue template
+result                            Result enum
+mark                              // MARK - 
 log                               Basic print log template
 lorem                             output lorem ipsum
 ```
