@@ -31,7 +31,7 @@ df                                DateFormatter
 nsl                               NSLocalizedString
 rgb                               UIColor RGB
 uiac                              UIAlertController template
-document_directory_path           Document directory path
+document_directory_url            Document directory url
 init_singleton                    Initializing Singleton template
 init_view                         Initializing subclass of UIVview template
 try_catch                         do-try-catch
