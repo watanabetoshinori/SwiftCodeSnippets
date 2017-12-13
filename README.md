@@ -44,4 +44,12 @@ log                               Basic print log template
 lorem                             output lorem ipsum
 ```
 
+### Uninstall
+
+To uninstall the snippet, delete codesnippets files in the following path:
+
+```
+~/Library/Developer/Xcode/UserData/CodeSnippets/
+```
+
 [1]: https://github.com/mattt/Xcode-Snippets
