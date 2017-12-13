@@ -1,7 +1,7 @@
 ---
 title: "Swift UIView initializing"
 summary: "Initializing subclass of UIVview template for Swift."
-completion-scope: All
+completion-scope: ClassImplementation
 ---
 
 // MARK: - Initializing a View Object

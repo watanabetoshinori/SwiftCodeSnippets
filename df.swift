@@ -1,7 +1,7 @@
 ---
 title: "Swift DateFormatter"
 summary: "DateFormatter template for Swift."
-completion-scope: CodeExpression
+completion-scope: All
 ---
 
 let dateFormatter = DateFormatter()

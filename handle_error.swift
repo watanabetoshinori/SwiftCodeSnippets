@@ -1,7 +1,7 @@
 ---
 title: "Swift Error Handling"
 summary: "Basic error handling."
-completion-scope: CodeExpression
+completion-scope: All
 ---
 
 if let error = error {

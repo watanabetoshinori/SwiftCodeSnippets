@@ -1,7 +1,7 @@
 ---
 title: "Swift UIAlertController"
 summary: "UIAlertController template for Swift."
-completion-scope: CodeExpression
+completion-scope: All
 ---
 
 let alertController = UIAlertController(title: <#T##String?#>, message: <#T##String?#>, preferredStyle: .alert)

@@ -1,7 +1,7 @@
 ---
 title: "Swift AppDelegate"
 summary: "Referencing  AppDelegate."
-completion-scope: CodeExpression
+completion-scope: All
 ---
 
 if let appDelegate = UIApplication.shared.delegate as? AppDelegate {

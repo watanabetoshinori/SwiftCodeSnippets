@@ -1,7 +1,7 @@
 ---
 title: "Swift Singleton initializing"
 summary: "Initializing Singleton template for Swift."
-completion-scope: All
+completion-scope: ClassImplementation
 ---
 
 // MARK: - Initializing a Singleton

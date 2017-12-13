@@ -1,7 +1,7 @@
 ---
 title: "Swift prepareForSegue template"
 summary: "prepareForSegue template with switch statement."
-completion-scope: All
+completion-scope: ClassImplementation
 ---
 
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
