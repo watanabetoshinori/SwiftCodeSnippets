@@ -8,6 +8,6 @@ completion-scope: ClassImplementation
 
 static let shared = <#class#>()
 
-private init() {
+override private init() {
 
 }
