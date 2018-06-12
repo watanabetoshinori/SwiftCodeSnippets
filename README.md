@@ -7,7 +7,7 @@ My Swift code snippets for Xcode.
 All snippets are written by [xcodesnippet][1] format. Please install [xcodesnippet][1] if you do not have it.
 
 ```
-$ python .install_all.py
+$ python install_all.py
 ```
 
 or 
@@ -52,4 +52,4 @@ To uninstall the snippet, delete codesnippets files in the following path:
 ~/Library/Developer/Xcode/UserData/CodeSnippets/
 ```
 
-[1]: https://github.com/mattt/Xcode-Snippets
+[1]: https://github.com/Xcode-Snippets/xcodesnippet
