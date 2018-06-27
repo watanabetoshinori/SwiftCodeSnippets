@@ -30,7 +30,8 @@ app_delegate                      Referencing AppDelegate
 df                                DateFormatter
 nsl                               NSLocalizedString
 rgb                               UIColor RGB
-uiac                              UIAlertController template
+alert                             UIAlertController template (Alert)
+confirm                           UIAlertController template (Confirm)
 document_directory_url            Document directory url
 init_singleton                    Initializing Singleton template
 init_view                         Initializing subclass of UIVview template

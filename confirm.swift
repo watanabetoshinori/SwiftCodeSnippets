@@ -1,6 +1,6 @@
 ---
 title: "Swift UIAlertController"
-summary: "UIAlertController template for Swift."
+summary: "UIAlertController confirm template for Swift."
 completion-scope: All
 ---
 
@@ -9,3 +9,4 @@ alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: {
     <#code#>
 }))
 alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+present(alertController, animated: true, completion: nil)
