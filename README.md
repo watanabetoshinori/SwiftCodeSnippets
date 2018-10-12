@@ -34,6 +34,7 @@ alert                             UIAlertController template (Alert)
 confirm                           UIAlertController template (Confirm)
 document_directory_url            Document directory url
 init_singleton                    Initializing Singleton template
+instantiate_viewcontroller        Instantiate ViewController template
 init_view                         Initializing subclass of UIVview template
 try_catch                         do-try-catch
 handle_error                      Basic error handling
