@@ -8,7 +8,9 @@ completion-scope: ClassImplementation
 
 class func instantiateViewController(_ initializeHandler: ((<#ViewController#>) -> Void)? = nil) -> <#ViewController#> {
     let storyboard = UIStoryboard(name: "<#StoryboardName#>", bundle: nil)
-    let viewController = storyboard.instantiateViewController(withIdentifier: "<#ViewController#>") as! <#ViewController#>
+    guard let viewController = storyboard.instantiateViewController(withIdentifier: "<#ViewController#>") as? <#ViewController#> else {
+        fatalError("Could not instantiate viewController with identifier.")
+    }
     initializeHandler?(viewController)
     return viewController
 }
