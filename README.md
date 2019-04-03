@@ -45,6 +45,7 @@ Just typing shortcut in xocde :)
 | dispatch_after | GCD template |
 | dispatch_async | GCD template |
 | outlet | @IBOutlet |
+| outlet_collection | @IBOutlet collection |
 | app_delegate | Referencing AppDelegate |
 | df | DateFormatter template |
 | nsl | NSLocalizedString |
