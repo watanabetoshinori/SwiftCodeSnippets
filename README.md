@@ -61,7 +61,6 @@ Just typing shortcut in xocde :)
 | handle_error | Basic error handling |
 | extension_property | extension property using AssociatedObject |
 | prepare_for_segue | prepareForSegue template |
-| result | Result enum |
 | mark | // MARK -  |
 | log | Basic print log template |
 | lorem | output lorem ipsum |
