@@ -4,4 +4,4 @@ summary: "Connect an outlet to control object."
 completion-scope: ClassImplementation
 ---
 
-@IBOutlet weak var <#name#>: <#T##UIControl#>!
+@IBOutlet var <#name#>: <#T##UIControl#>!
