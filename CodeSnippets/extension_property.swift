@@ -8,7 +8,7 @@ private struct AssociatedKeys {
     static var <#property#> = "<#property#>"
 }
 
-var <#property#> : <#class#>? {
+var <#property#>: <#class#>? {
     get {
         return objc_getAssociatedObject(self, &AssociatedKeys.<#property#>) as? <#class#>
     }
